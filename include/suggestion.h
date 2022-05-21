@@ -1,4 +1,4 @@
-// Copyright by Enigma
+// Copyright by Spertis
 
 #ifndef INCLUDE_SUGGESTION_HPP_
 #define INCLUDE_SUGGESTION_HPP_

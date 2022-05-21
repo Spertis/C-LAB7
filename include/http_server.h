@@ -1,5 +1,4 @@
-
-// Copyright by Enigma
+// Copyright by Spertis
 
 #ifndef INCLUDE_HTTP_SERVER_HPP_
 #define INCLUDE_HTTP_SERVER_HPP_
@@ -157,8 +156,7 @@ void do_session(net::ip::tcp::socket& socket,
 
   socket.shutdown(tcp::socket::shutdown_send, ec);
 }
-
-[[noreturn]]void suggestion_updater(
+[[noreturn]] void suggestion_updater(
     const std::shared_ptr<JsonStorage>& storage,
     const std::shared_ptr<CallSuggestions>& suggestions,
     const std::shared_ptr<std::timed_mutex>& mutex) {
